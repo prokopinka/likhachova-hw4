@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #151F32;
+}
+
+ header {
+   height: 10vh; 
+   font-weight: bold;
+   line-height: 17px;
+
+}
+/*
+.logo {
+   width: 10vw;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.nav-link {
+    color: #151F32;
+    text-decoration: none;
+}
