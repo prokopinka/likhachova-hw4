@@ -14,19 +14,20 @@ body {
     }
 
  header {
-   height: 10vh; 
+   display: flex;
+   align-items: center;
+   height: 15vh; 
    font-weight: bold;
    line-height: 17px;
-   margin-top: 5%;
-   margin-right: 3%;
-   margin-left: 5%;
+   
 }
 
 .logo {
    width: 15vh;
    vertical-align: bottom;
    display: inline-flex;
-   justify-content: flex-end;
+   margin-right: 3%;
+   margin-left: 10%;
 }
 
 .middle-navbar {
@@ -41,7 +42,6 @@ body {
     justify-content: right;
     justify-content: space-evenly;
     width: 15vw;
-    vertical-align: bottom;
 }
 
 .nav-link {
@@ -52,7 +52,7 @@ body {
 
 .wrapper {
     display: flex;
-    height: 65%;
+    height: 70vh;
 }
 
 .square {
@@ -166,10 +166,16 @@ body {
     width: 45px;
     height: 45px;
 
-
 }  
 
 .identic-foot {
+    height: 10vh;
     display: flex;
     justify-content: space-evenly;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    color: #C2C2C2;
 }
