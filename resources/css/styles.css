@@ -2,9 +2,10 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     color: #151F32;
+    line-height: 19px;;
 }
  .first-block-bg{
-    background-color: lightblue;
+    background-color: #FAFAFA;
     position: absolute;
     width: 90%;
     margin-left: 5vw;
@@ -13,11 +14,11 @@ body {
     }
 
  header {
-   height: 10%; 
+   height: 10vh; 
    font-weight: bold;
    line-height: 17px;
    margin-top: 5%;
-   margin-right:5%;
+   margin-right: 3%;
    margin-left: 5%;
 }
 
@@ -25,29 +26,28 @@ body {
    width: 15vh;
    vertical-align: bottom;
    display: inline-flex;
-   justify-content: center;
    justify-content: flex-end;
 }
 
 .middle-navbar {
     display: inline-flex;
-    justify-content: center;
     justify-content: space-evenly;
-    width: 55vw;
+    width: 50vw;
     vertical-align: bottom;
 }
 
-.left-navbar  {
+.right-navbar  {
     display: inline-flex;
-    justify-content: center;
+    justify-content: right;
     justify-content: space-evenly;
-    width: 10vw;
+    width: 15vw;
     vertical-align: bottom;
 }
 
 .nav-link {
     color: #151F32;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .wrapper {
@@ -58,10 +58,14 @@ body {
 .square {
     width: 50%;
     height: auto;
+    
 }
 
 .block-identic {
-   padding-left: 7%;
+   margin-left: 15%;
+   padding-top: 7%;
+   position: relative;
+
 }
 
 .title-block {
@@ -91,16 +95,16 @@ body {
     margin-top: 20%;
 }
 
-
-
-
-
-
-
 /*second block*/
 .block-marketing-agency {
-    background-image: url('./resources/images/marketing-block.svg');
-   
+    background-image: url('../images/marketing-block.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.marketing-text-area{
+    padding: 15%;
 }
 
 .sub-title {
@@ -109,4 +113,57 @@ body {
     font-size: 28px;
     line-height: 34px;
     color: #fff;
+    margin-bottom: 7%;
+
+}
+
+
+.general-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.marketing-text {
+    color: #FCD3AC;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.arrows {
+    width: 25%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.arrow-left {
+    margin-right: 15px;
+}
+
+.start-button {
+    width: 120px;
+    height: 45px;
+    left: 0;
+    bottom: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 20px;
+    color: #151F32;
+    text-align: center;
+}
+
+.block-marketing-agency::before {
+    content : '';
+    position: absolute;
+    left: -45px;
+    bottom: 5%;
+    background-image: url('../images/setting-button.svg');
+    width: 45px;
+    height: 45px;
+
 }
