@@ -166,4 +166,10 @@ body {
     width: 45px;
     height: 45px;
 
+
+}  
+
+.identic-foot {
+    display: flex;
+    justify-content: space-evenly;
 }
